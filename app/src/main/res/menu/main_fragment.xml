@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort"
+        android:title="sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/popular"
+                android:title="@string/popular"></item>
+            <item
+                android:id="@+id/toprated"
+                android:title="@string/toprated"></item>
+            <item
+                android:id="@+id/fav"
+                android:title="@string/favorite"></item>
+        </menu>
+    </item>
+</menu>
